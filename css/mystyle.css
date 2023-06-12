@@ -27,6 +27,19 @@ ul {
      ul요소는 상단 0px 위치에 고정되어 움직이지 않음.  */
 }
 
+ ul.aa {
+       display : block;
+       text-align : left;
+       list-style-type: disc;
+       background-color : white;
+       overflow : visible;
+       padding : 105px 30px;
+       
+       margin-top : 100px;
+       line-height : 50px;
+       z-index : 0;
+       
+     }
 
 
 li {
